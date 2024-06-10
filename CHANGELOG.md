@@ -1,5 +1,35 @@
 # Changelog
 
+## [10.0.0](https://github.com/AstroNvim/astrocommunity/compare/v9.0.0...v10.0.0) (2024-06-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **twilight-nvim:** Change keymap due to conflict with transparent-nvim ([#1033](https://github.com/AstroNvim/astrocommunity/issues/1033))
+* **python-ruff:** change from ruff_lsp to ruff ([#1025](https://github.com/AstroNvim/astrocommunity/issues/1025))
+
+### Features
+
+* **completion:** add codeium-cmp plugin ([#1030](https://github.com/AstroNvim/astrocommunity/issues/1030)) ([5e6e95a](https://github.com/AstroNvim/astrocommunity/commit/5e6e95a9735da0aa2138a70915656ef5ea5c276f))
+* **fuzzy-finder:** add `fzf-lua` ([#1034](https://github.com/AstroNvim/astrocommunity/issues/1034)) ([c1b4471](https://github.com/AstroNvim/astrocommunity/commit/c1b4471a1a0fa1e287f8aecd39a95c7d44f7ca87))
+* **lazydev-nvim:** add AstroNvim types automatically ([35ba0cf](https://github.com/AstroNvim/astrocommunity/commit/35ba0cf17237d05b509f54490dde9b3df73ebc45))
+* **mason-tool-installer-nvim:** make `ensure_installed` table do list extension on merge ([dcc61d6](https://github.com/AstroNvim/astrocommunity/commit/dcc61d6b86e0cdccd86d655611e93b137e023964))
+* **nvim-bqf:** use the AstroUI "Selected" icon for selection ([2ea9318](https://github.com/AstroNvim/astrocommunity/commit/2ea93187a63fb9eab0f9fa3d3f13c7c70f7ea053))
+* **pack:** Add `ocaml` pack ([#1029](https://github.com/AstroNvim/astrocommunity/issues/1029)) ([9d9c7d1](https://github.com/AstroNvim/astrocommunity/commit/9d9c7d16e40ebbe165fda9647b3e69e48cbce0c3))
+* **python-ruff:** change from ruff_lsp to ruff ([a562dbe](https://github.com/AstroNvim/astrocommunity/commit/a562dbe1dddf82fd43035465b3278cc0ff3c414b))
+* **python-ruff:** change from ruff_lsp to ruff ([#1025](https://github.com/AstroNvim/astrocommunity/issues/1025)) ([a562dbe](https://github.com/AstroNvim/astrocommunity/commit/a562dbe1dddf82fd43035465b3278cc0ff3c414b))
+* **twilight-nvim:** Change keymap due to conflict with transparent-nvim ([#1033](https://github.com/AstroNvim/astrocommunity/issues/1033)) ([9d8f757](https://github.com/AstroNvim/astrocommunity/commit/9d8f75750a49e77b93e5afaafd113b7fbae180e2))
+* **typescript:** add debugger adapters to vsscode `launch.json` detection in `nvim-dap` ([8832006](https://github.com/AstroNvim/astrocommunity/commit/8832006efb65219fe3898d8aad398c2264bff34c))
+
+
+### Bug Fixes
+
+* **colorscheme:** Typo README.md ([585471f](https://github.com/AstroNvim/astrocommunity/commit/585471f83f2eac6ee5b7f66dc9f1219378f79b70))
+* **completion:** fix typo in repos for `cmp-emoji` and `cmp-latex-symbols` ([bc375b8](https://github.com/AstroNvim/astrocommunity/commit/bc375b8fead0565c523d95d7f829ced6aac14313))
+* **python-ruff:** disable `hoverProvider` for `ruff` and just use `pyright` ([c338c88](https://github.com/AstroNvim/astrocommunity/commit/c338c88755c982888bed8f9aff70a26b9425e931))
+* **python:** add protection against `debugpy` not being installed through mason ([51eb1c1](https://github.com/AstroNvim/astrocommunity/commit/51eb1c1efd58ac35242070db1ec484c7c910a5a7))
+* **tabout-nvim:** add support for native snippets ([4a0dbf0](https://github.com/AstroNvim/astrocommunity/commit/4a0dbf0c79b1d0871bb7cd6815335d0deee82a22))
+
 ## [9.0.0](https://github.com/AstroNvim/astrocommunity/compare/v8.5.0...v9.0.0) (2024-06-03)
 
 
