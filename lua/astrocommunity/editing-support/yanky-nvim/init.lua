@@ -59,6 +59,22 @@ return {
   end,
   specs = {
     {
+      "folke/snacks.nvim",
+      optional = true,
+      specs = {
+        {
+          "AstroNvim/astrocore",
+          opts = {
+            mappings = {
+              n = {
+                ["<Leader>fy"] = { function() Snacks.picker.yanky() end, desc = "Open Yank History", },
+              },
+            },
+          },
+        },
+      },
+    },
+    {
       "nvim-telescope/telescope.nvim",
       optional = true,
       specs = {
